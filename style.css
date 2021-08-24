@@ -112,14 +112,71 @@ header{
     width: 100%;
     padding: 5rem;
 }
-.stuimg{
+
+.sec{
+    padding: 10px;
+}
+.sec_co{
+    display: flex;
+    margin: 0px 60px;
+    padding: 10px;
+}
+.sec_con{
+    width: 100%;
+    display: flex;
     
+    
+}
+.sec_im{
+    width: 50%;
+   
+    
+}
+.sec_img{
+  width: 85%;
+}
+.sec_text{
+    
+   width: 50%;
+    margin-top: 100px;
+}
+.sec_text>p{
+    padding: 0 50px;
+}
+.headi{
+    text-align: center;
+    margin-top: 40px;
+}
+.group{
+    text-align: center;
+    width: 95%;
+    margin: 100px 60px;
+ 
+}
+.group_l{
+    margin: 0 50px;
+    padding: 0 110px;
 }
 
 
 
-
-
+@media  only screen and (max-width:1006px){
+    
+    .sec_con {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec_im {
+        width: 100%;
+    }
+    .sec_img{
+        width: 100%;
+    }
+    .sec_text{
+        width: 100%;
+    }
+}
 
 
 
